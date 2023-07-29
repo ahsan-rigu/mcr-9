@@ -1,0 +1,32 @@
+article{
+    width: min(100vw, 20rem);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid rgba(128, 128, 128, 0.153);
+    display: inline-block;
+    position: relative;
+}
+
+article img{
+    max-width: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+article h4{
+    margin: .25 0;
+    height: 2rem;
+}
+
+button:has(svg){
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-br{
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+}

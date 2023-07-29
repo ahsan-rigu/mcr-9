@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 2rem;
+    background-color: rgb(210, 253, 255);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.361);
+}
+
+header nav{
+    display: flex;
+    gap: 1rem;
+}
+
+header .logo{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
